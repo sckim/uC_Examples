@@ -1,4 +1,6 @@
 Thumbs.db
+*.aps
+*.aws
 *.pdsbak
 *.atsuo
 *.xml
