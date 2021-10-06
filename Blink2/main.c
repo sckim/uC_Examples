@@ -1,5 +1,5 @@
 /*
- * Blink2.c
+ * Blink.c
  *
  * Created: 2019-11-21 오후 5:31:51
  * Author : Soochan Kim
@@ -13,13 +13,13 @@
 int main(void)
 {
     /* Replace with your application code */
-	DDRD = _BV(PD3);
+	DDRB = _BV(PD5);
     while (1) 
     {
-		PORTD |= _BV(PD3);
-		_delay_ms(100);
-		PORTD &= ~_BV(PD3);
-		_delay_ms(100);
+		PORTB |= _BV(PB5);
+		_delay_ms(1000);
+		PORTB &= ~_BV(PB5);
+		_delay_ms(1000);
     }
 }
 
