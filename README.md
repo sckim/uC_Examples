@@ -12,6 +12,7 @@ Microcontroller AVR128을 이용한 예제입니다.
 ### 2주차: 개발환경구축
 + AVR Studio 4.x
 + Eclipse for AVR
++ Visual Studio Code + PlateformIO
 ### 3주차: 범용 출력
 + LED On
 + LED On/Off
